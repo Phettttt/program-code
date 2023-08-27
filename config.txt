@@ -1,0 +1,13 @@
+#sdtv mode=2
+#uncomment to overclock the arm. 700 MHz is the default.
+#arm_freq=800
+# Uncomment some or all of these to enable the optional hardware interfaces
+#dtparam=i2c arm=on
+#dtparam=i2s=on
+#dtparam=spi=on
+# Uncomment this to enable the lirc-rpi module
+#dtoverlay=lirc-rpi
+# Additional overlaysand parameters are documented/boot/overlays/README
+# Enable audio (loads snd bcm2835)
+dtparam-audio=on
+dtoverlay=dwc2
